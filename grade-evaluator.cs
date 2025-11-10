@@ -8,10 +8,15 @@ namespace GradeEvaluator {
             Console.WriteLine();
             Console.Write();
 
-            // string 
-            // if() {}
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out int grade))
+            {
 
-            // switch
+
+                // switch 
+            } else { 
+                
+            }
         }
     }
 }
