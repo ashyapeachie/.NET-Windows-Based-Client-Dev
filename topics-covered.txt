@@ -4,5 +4,11 @@ Windows programming
 numeric and string data
 data conversions
 control structures, loops, methods, and event handling in C#
+    -> four small individual projects & final integrated project
+    // grade evaluator 
+    // number analyzer
+    // math utility library
+    // simple counter app
+    // student performance tracker
 exception handling & data validation
 array processing, collections and dates and strings
