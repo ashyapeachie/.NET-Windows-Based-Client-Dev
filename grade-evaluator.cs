@@ -5,8 +5,8 @@ using System;
 namespace GradeEvaluator {
     class Gradeevaluator {
         static void Main(string[] args) {
-            // Console.WriteLine();
-            // Console.Write();
+            Console.WriteLine();
+            Console.Write();
 
             // string 
             // if() {}
