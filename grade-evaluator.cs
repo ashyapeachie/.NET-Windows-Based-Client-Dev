@@ -9,14 +9,14 @@ namespace GradeEvaluator {
             Console.Write();
 
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int grade))
-            {
+            if (int.TryParse(input, out int grade)) {
 
 
                 // switch 
             } else { 
-                
+                // Console.WriteLine();
             }
+            // Console.___();
         }
     }
 }
