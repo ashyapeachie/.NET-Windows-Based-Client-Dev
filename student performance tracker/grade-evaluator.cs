@@ -1,6 +1,10 @@
-// goal: if, if else, and switch statements
-// remember to add proper header 
-// Program.cs
+/* 
+Author: Aham
+Filename: grade-evaluator.cs or Program.cs
+Description: console app that asks user to input a numeric grade, uses 
+    if / else if to get letter grade, and uses a switch statement to 
+    give a response / remark
+ */ 
 
 using System;
 

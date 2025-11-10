@@ -1,5 +1,9 @@
-// goal: for, while, and foreach loops
-// remember to add proper header 
+/* 
+Author: Aham
+Filename: number-analyzer.cs 
+Description: console app that asks user for a list of numbers, splits
+    the input into an array, and calculates
+ */
 
 using System;
 using System.Linq;

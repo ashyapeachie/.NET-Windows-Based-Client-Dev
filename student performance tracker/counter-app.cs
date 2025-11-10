@@ -1,3 +1,9 @@
+/* 
+Author:
+Filename:
+Description:
+ */
+
 // goal: practice basic event handling in a GUI
 // add proper header
 
