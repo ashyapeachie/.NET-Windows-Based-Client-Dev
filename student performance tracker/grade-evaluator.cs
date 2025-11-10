@@ -1,5 +1,6 @@
 // goal: if, if else, and switch statements
 // remember to add proper header 
+// Program.cs
 
 using System;
 
@@ -7,7 +8,7 @@ namespace GradeEvaluator {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("Grade Evaluator");
-            Console.Write();
+            Console.Write("Please enter number grade (0 - 100): ");
 
             string input = Console.ReadLine();
             if (int.TryParse(input, out int grade)) {
@@ -21,23 +22,38 @@ namespace GradeEvaluator {
                 else letterGrade = "F";
                 // control structure- if else chain
 
-                switch (letterGrade) {
+                switch (letterGrade)
+                {
                     case "A":
+                        remark = "Excellent work!";
+                        Console.ForegroundColor = ConsoleColor.Green;
                         break;
                     case "B":
+                        remark = "Good job!";
+                        Console.ForegroundColor = ConsoleColor.Yellow;
                         break;
                     case "C":
+                        remark = "Satisfactory.";
+                        Console.ForegroundColor = ConsoleColor.DarkYellow;
                         break;
                     case "D":
+                        remark = "Needs improvement.";
+                        Console.ForegroundColor = ConsoleColor.Red;
                         break;
                     default:
+                        remark = "Failed. Study harder!";
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
                         break;
                 }
                 // switch statement
+
+                Console.WriteLine($"\nLetter Grade: {letterGrade}");
+                Console.WriteLine($"Remark: {remark}");
+
             } else { 
                 Console.WriteLine("This is an invalid input- please enter a valid number");
             }
-            // Console.___();
+            Console.ResetColor();
         }
     }
 }
