@@ -7,6 +7,11 @@ namespace GradeEvaluator {
         static void Main(string[] args) {
             // Console.WriteLine();
             // Console.Write();
+
+            // string 
+            // if() {}
+
+            // switch
         }
     }
 }
