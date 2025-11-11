@@ -19,8 +19,18 @@ namespace NumberAnalyzer {
             int[] numbers = new int[parts.Length];
             // splitting input and convert to int array
 
+            for () {
 
+            }
+
+            for () {
+
+            }
             // sum and average using for Loop
+            
+            int largest = numbers[0];
+            int smallest = numbers[0];
+            // finding largest and smallest 
         }
     }
 }
