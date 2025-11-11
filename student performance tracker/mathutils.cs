@@ -1,12 +1,8 @@
 /* 
 Author: Aham
-Filename: mathutils.cs
+Filename: mathutils.cs, mathutilstest.cs
 Description: creates a static class w methods
  */
-
-// learn to write & call reusable methods
-// remember to add proper header 
-// Program.cs
 
 using System;
 
