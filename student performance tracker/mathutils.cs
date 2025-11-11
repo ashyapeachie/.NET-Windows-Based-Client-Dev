@@ -11,8 +11,13 @@ namespace MathUtility {
         public static int Add(int a, int b) {
             return a + b;
         }
+
+        public static int Multiply(int a, int b) {
+            return a * b;
+        }
         
-        // int Multiply
-        // double Average
+        // public static double Average(int[] numbers)
+        
+        // public static bool(int number)
     }
 }
