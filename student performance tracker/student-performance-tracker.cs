@@ -1,8 +1,7 @@
 /* 
-Author:
-Filename:
-Description:
+Author: Aham 
+Filename: student-performance-tracker.cs
+Description: integrated project that combines control structures, loops, methods, 
+    and event handling
  */
 
-// goal: combine control structures, loops, methods, and event handling
-// add proper header
