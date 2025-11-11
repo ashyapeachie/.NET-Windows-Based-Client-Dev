@@ -1,0 +1,15 @@
+how to move code between VSCode -> Visual Studio
+
+create a .NET project using:
+    dotnet new console -n GradeEvaluator
+
+or for Windows Forms:
+    dotnet new winforms -n CounterApp
+
+Commit and push your project using GitHub Desktop
+On another computer with Visual Studio:
+Clone the repo via GitHub Desktop.
+Open the .sln (solution) or .csproj file directly 
+    in Visual Studio.
+Visual Studio will automatically load dependencies 
+    and allow you to switch between console and GUI projects.
