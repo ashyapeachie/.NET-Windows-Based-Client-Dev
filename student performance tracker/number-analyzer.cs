@@ -11,11 +11,11 @@ using System.Linq;
 namespace NumberAnalyzer {
     class Program {
         static void Main() {
-            // Console.WriteLine();
-            // Console.WriteLine();
-            // string input = Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            string input = Console.ReadLine();
 
-
+            string[] parts = input.Split(',');
             // splitting input and convert to int array
 
 

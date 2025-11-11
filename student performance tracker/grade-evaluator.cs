@@ -49,7 +49,7 @@ namespace GradeEvaluator {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         break;
                 }
-                // switch statement
+                // control structure- switch statement
 
                 Console.WriteLine($"\nLetter Grade: {letterGrade}");
                 Console.WriteLine($"Remark: {remark}");
