@@ -16,6 +16,7 @@ namespace NumberAnalyzer {
             string input = Console.ReadLine();
 
             string[] parts = input.Split(',');
+            int[] numbers = new int[parts.Length];
             // splitting input and convert to int array
 
 
